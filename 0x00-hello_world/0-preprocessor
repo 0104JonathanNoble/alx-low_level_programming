@@ -1,2 +1,2 @@
 #!/bin/bash
-gcc -o c $CFILE ; $CFILE=c
+gcc -o main.c $CFILE ; $CFILE=main.c
