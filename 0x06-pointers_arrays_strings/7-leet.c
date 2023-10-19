@@ -5,5 +5,3 @@
  * Return: string
  */
 char *leet(char *)
-{
-

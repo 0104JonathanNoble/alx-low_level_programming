@@ -3,8 +3,11 @@
  * main - change lowercase to uppercase
  * Return: string
  */
-char *string_toupper(char *)
+char *string_toupper(char *a)
 {
-	int i = 0;
+	int i;
 
-	while (
+	i = 0;
+	while (a[i] != '\0')
+	{
+		if (a[i] >=
