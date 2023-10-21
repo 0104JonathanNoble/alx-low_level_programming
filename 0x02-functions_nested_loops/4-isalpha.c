@@ -1,4 +1,4 @@
-#include <main.h>
+#include "main.h"
 /**
  * main - print alphabet
  * Return: 1 if c is lowercase or upper, 0 if otherwise

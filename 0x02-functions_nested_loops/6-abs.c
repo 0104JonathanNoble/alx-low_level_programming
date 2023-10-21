@@ -1,4 +1,4 @@
-#include <main.h>
+#include "main.h"
 /**
  * main - compute the value of integer
  * Return: value of int

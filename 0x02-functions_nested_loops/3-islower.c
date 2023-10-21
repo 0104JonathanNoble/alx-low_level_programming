@@ -1,4 +1,4 @@
-#include <main.h>
+#include "main.h"
 /**
  * main - check lowercase character
  * Return: 1 if true, return 0 otherwise
