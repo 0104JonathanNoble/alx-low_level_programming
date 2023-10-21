@@ -1,7 +1,8 @@
 #include <stdio.h>
 #include "main.h"
 /**
- * main - print natural numbers from n to 98
+ * print_to_98 - print natural numbers from n to 98
+ * @n: first natural number
  * seperated by comma followed by space
  * print in order
  */
