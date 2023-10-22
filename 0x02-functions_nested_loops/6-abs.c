@@ -1,9 +1,10 @@
 #include "main.h"
 /**
- * main - compute the value of integer
+ * _abs - compute the value of integer
+ * @n: int value
  * Return: value of int
  */
-int _abs(int)
+int _abs(int n)
 {
 	if (n >= 0)
 	{
