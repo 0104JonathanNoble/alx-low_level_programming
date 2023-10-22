@@ -1,5 +1,8 @@
 #include "main.h"
-
+/**
+ * more_numbers - print numbers 0 to 14 x10
+ * Return: output
+ */
 void more_numbers(void)
 {
 	int i, j;

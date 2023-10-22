@@ -1,5 +1,8 @@
 #include "main.h"
-
+/**
+ * _isdigit - search digit 0 to 9
+ * Return: 1 if c is a digit, 0 if otherwise
+ */
 int _isdigit(int c)
 {
 	if (c >= '0' && c <= '9')
