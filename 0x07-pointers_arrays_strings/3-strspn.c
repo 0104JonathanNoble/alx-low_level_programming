@@ -1,8 +1,8 @@
 #include "main.h"
 /**
  * _strspn - gets the length of a prefix substring
- * @s: inputs the number of bytes from segment
- * @accept: input the number of bytes
+ * @s: input
+ * @accept: input
  * Return: Always 0
  */
 unsigned int _strspn(char *s, char *accept)
