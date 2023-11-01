@@ -1,4 +1,3 @@
-#include <stdio.h>
 #include "main.h"
 /**
  * main - Entry point
@@ -9,6 +8,6 @@
 int main(int argc, char *argv[])
 {
 	(void) argv;
-	printf("number of arguments: %d\n", argc - 1);
+	printf("%d\n", argc - 1);
 	return (0);
 }
