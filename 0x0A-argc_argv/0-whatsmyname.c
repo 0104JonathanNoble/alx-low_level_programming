@@ -1,10 +1,12 @@
-#include <stdio.h>
+#include "main.h"
 /**
- * main - Entry point
+ * main - name of program
+ * @argc: number of arguments
+ * @argv: array
  * Return: Always 0
  */
-int main()
+int main(int argc __attribute__((unused)), char *argv[])
 {
-	printf("./mynameis\n");
+	printf("%s\n", *argv);
 	return (0);
 }
