@@ -1,4 +1,6 @@
 #include "lists.h"
+#include <string.h>
+#include <stdlib.h>
 /**
  * add_node - adds new node at beginning
  * @head: linked list
@@ -16,7 +18,7 @@ list_t *add_node(list_t **head, const char *str)
 
 	while (str[l])
 		l++;
-	i->l = l;
+	i->len = l;
 	i->str = strdup(str);
 	i->next = *head;
 	*head = i;
