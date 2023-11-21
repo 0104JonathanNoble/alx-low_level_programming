@@ -4,7 +4,7 @@
  * @head: a pointer
  * Return: the head node’s data (n)
  */
-listint_t *get_nodeint_at_index(listint_t *head, unsigned int index)
+int pop_listint(listint_t **head)
 {
 	listint_t *s;
 	int i;
