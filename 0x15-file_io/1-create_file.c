@@ -8,22 +8,25 @@
 int create_file(const char *filename, char *text_content)
 {
 	int i;
-	int j = 1;
-	int k = 0;
+	int j;
+	int k;
 
 	if (!filename)
 		return (-1);
 	i = open(filename, O_CREAT | O_WRONLY | O_TRUNC, 0600);
+
 	if (i == -1)
 		return (-1);
-	if (text_content)
-	{
-		while (text_content[k])
-			k++;
-		j = fwrite(i, text_content, k);
-	}
-	if (j == -1)
+
+	if (!text_content)
+		text_content = "";
+	for (j = 0, text_content[j], j++)
+		;
+
+	k = write(i, text_content, j);
+
+	if (k == -1)
 		return (-1);
-	pclose(i);
+	close(i);
 	return (1);
 }
